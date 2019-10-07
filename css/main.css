@@ -1,0 +1,193 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      scroll-behavior: smooth;
+			font-family: poppins,Arial,sans-serif;
+
+}
+
+.active{
+  color: rgba(0,0,0,.9);
+}
+
+/* .....carousel.... */
+.carousel-inner{
+    height: 80vh;
+}
+
+
+
+.banner,.loginbg{
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+
+
+
+/* ......service..... */
+.service{
+    margin: 60px auto;
+}
+
+.service_blocks{
+    background: #f8f9fa;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.subheading{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #b69100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: poppins,Arial,sans-serif;
+
+}
+
+.icon{
+  font-size: 50px;
+  color: #b69009;
+  padding-bottom: 20px;
+}
+
+
+
+/* ...........about........ */
+
+.photohead{
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  /* opacity: 0.5;     */
+}
+
+.parallax {
+  background-image: url("../images/about1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heading{
+  padding-top: 30vh;
+  text-align: center;
+  font-family: poppins,Arial,sans-serif;
+  font-size: 6em;
+  font-size: 700;
+  color: white;
+}
+
+.aboutheading{
+  padding: 50px 20px 20px 20px ;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+  color: #b69100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: poppins,Arial,sans-serif;
+  text-align: center;
+}
+
+.quoteheading{
+  font-family: playfair display,Arial,serif;
+  text-align: center;
+  margin: 10px 0px 30px 0px ;
+
+}
+
+.para{
+  font-family: poppins,Arial,sans-serif;
+  padding-top: 50px;
+}
+
+
+.abtbottom{
+  margin-bottom: 60px;
+}
+
+/* ....login..... */
+
+.loginform{
+  background-color:#000000ba;
+  margin-top: 20vh;
+  margin-bottom: 50px;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  padding: 50px;
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: -1px 3px 7px 0px;
+  /* transform:translate(-50%,-50%); */
+}
+
+.loginform h2{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solig white;
+  margin-bottom: 50px;
+  padding: 13px 0;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-family: poppins;
+}
+
+.loginform input[type=text],input[type=password]{
+  width: 100%;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  overflow: hidden;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white !important;
+  outline: none;
+  color: white;
+}
+
+.loginform input[type=submit]{
+  width: 100%;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  overflow: hidden;
+  background-color: #b69009b5;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+
+}
+
+.loginbg{
+  height: 100vh !important;
+}
+
+
+/* ....footer..... */
+.footer{
+  padding: 50px;
+  /* margin-top: 30px; */
+  color: white;
+  background-color: #232323;
+  text-align: center;
+}
+
+.footer p{
+  margin: 0;
+}
